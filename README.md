@@ -7,7 +7,7 @@
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-blue">
   <img alt=".NET" src="https://img.shields.io/badge/.NET-8.0-purple">
   <img alt="WPF" src="https://img.shields.io/badge/UI-WPF-6aa84f">
-  <img alt="License" src="https://img.shields.io/badge/license-choose--one-lightgrey">
+  <img alt="License" src="https://github.com/RiCIcom/Custom-FiveM-Launcher/blob/main/License">
 </p>
 
 ---
