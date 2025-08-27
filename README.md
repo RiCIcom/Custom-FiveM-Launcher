@@ -1,7 +1,7 @@
 # 🌀 Fusion Mods Launcher
 
-> Ein moderner WPF‑Launcher für **FiveM** mit Ein‑Klick‑Connect, optionalem **Pure Mode**, **Auto‑TeamSpeak**, Steam‑Check und **Dev Mode**.  
-> Ziel: **Einmal klicken – direkt auf den Server.**
+> Mein WPF‑Launcher für **FiveM** mit Ein‑Klick‑Connect, optionalem **Pure Mode**, **Auto‑TeamSpeak**, Steam‑Check und **Dev Mode**. Stück für Stück verbessere ich das Tool.  
+> Ziel: **Einmal klicken – direkt auf deinen Lieblings Server verbinden.**
 
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-blue">
@@ -15,13 +15,13 @@
 ## ✨ Features
 
 - 🔒 **Sicherer Start:** Warnt, wenn **FiveM** bereits läuft – auf Wunsch wird der Prozess geschlossen.
-- 🎮 **Ein‑Klick Join:** Verbindet automatisch mit deinem `cfx.re` **Servercode** (z. B. `r9g6xx`).
+- 🎮 **Ein‑Klick Join:** Verbindet automatisch mit deinem `cfx.re` **Servercode** (z. B. `r9g6xx`: Narco City Server 2).
 - 🧼 **Pure Mode (optional):** Startet FiveM mit `-pure_1` (über temporäre .lnk), danach Auto‑Join.
-- 🟢 **Steam Check:** Start bricht ab, wenn **Steam** nicht offen ist (mit Hinweis).
+- 🟢 **Steam Check:** Start bricht ab, wenn **Steam** nicht offen ist (mit Hinweis). [Wird noch geändert!]
 - 🎧 **Auto‑TeamSpeak (optional):** Startet `ts3server://<ip>` automatisch.
-- ⏱️ **Waiting Time:** Konfigurierbare Wartezeit, bis der Auto‑Join ausgeführt & der Shortcut wieder gelöscht wird.
+- ⏱️ **Waiting Time:** Konfigurierbare Wartezeit, bis der Auto‑Join ausgeführt & der Shortcut wieder gelöscht wird. (Nur bei Dev Mode!)
 - 🛠️ **Dev Mode:** Per Kommandozeile aktivierbar – ideal fürs Debugging & Tests.
-- 🪟 **Schönes UI:** Dunkles, moderner Look (WPF), eigenes App‑Icon (`fusionmods.ico`).
+- 🪟 **Geiles UI:** Dunkler, moderner Look (WPF).
 
 ---
 
