@@ -1,13 +1,13 @@
 # 🌀 Fusion Mods Launcher
 
-> Mein WPF‑Launcher für **FiveM** mit Ein‑Klick‑Connect, optionalem **Pure Mode**, **Auto‑TeamSpeak**, Steam‑Check und **Dev Mode**. Stück für Stück verbessere ich das Tool.  
-> Ziel: **Einmal klicken – direkt auf deinen Lieblings Server verbinden.**
+> Ein moderner WPF‑Launcher für **FiveM** mit Ein‑Klick‑Connect, optionalem **Pure Mode**, **Auto‑TeamSpeak**, Steam‑Check und **Dev Mode**.  
+> Ziel: **Einmal klicken – direkt auf den Server.**
 
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-blue">
   <img alt=".NET" src="https://img.shields.io/badge/.NET-8.0-purple">
   <img alt="WPF" src="https://img.shields.io/badge/UI-WPF-6aa84f">
-  <img alt="License" src="https://github.com/RiCIcom/Custom-FiveM-Launcher/blob/main/License">
+  <img alt="License" src="https://img.shields.io/badge/license-choose--one-lightgrey">
 </p>
 
 ---
@@ -15,13 +15,13 @@
 ## ✨ Features
 
 - 🔒 **Sicherer Start:** Warnt, wenn **FiveM** bereits läuft – auf Wunsch wird der Prozess geschlossen.
-- 🎮 **Ein‑Klick Join:** Verbindet automatisch mit deinem `cfx.re` **Servercode** (z. B. `r9g6xx`: Narco City Server 2).
+- 🎮 **Ein‑Klick Join:** Verbindet automatisch mit deinem `cfx.re` **Servercode** (z. B. `r9g6xx`).
 - 🧼 **Pure Mode (optional):** Startet FiveM mit `-pure_1` (über temporäre .lnk), danach Auto‑Join.
-- 🟢 **Steam Check:** Start bricht ab, wenn **Steam** nicht offen ist (mit Hinweis). [Wird noch geändert!]
+- 🟢 **Steam Check:** Start bricht ab, wenn **Steam** nicht offen ist (mit Hinweis).
 - 🎧 **Auto‑TeamSpeak (optional):** Startet `ts3server://<ip>` automatisch.
-- ⏱️ **Waiting Time:** Konfigurierbare Wartezeit, bis der Auto‑Join ausgeführt & der Shortcut wieder gelöscht wird. (Nur bei Dev Mode!)
+- ⏱️ **Waiting Time:** Konfigurierbare Wartezeit, bis der Auto‑Join ausgeführt & der Shortcut wieder gelöscht wird.
 - 🛠️ **Dev Mode:** Per Kommandozeile aktivierbar – ideal fürs Debugging & Tests.
-- 🪟 **Geiles UI:** Dunkler, moderner Look (WPF).
+- 🪟 **Schönes UI:** Dunkles, moderner Look (WPF), eigenes App‑Icon (`fusionmods.ico`).
 
 ---
 
@@ -188,12 +188,13 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=
 
 ---
 
-## 📜 Lizenz
+## 📜 License
 
-> **Trage hier deine gewünschte Lizenz ein** (z. B. MIT, GPL‑3.0, Apache‑2.0).  
-> Alternativ: Lege eine `LICENSE`‑Datei im Repo an und verlinke sie hier.
+**Proprietary — Personal Use, No Redistribution.**  
+You may use the Fusion Mods Launcher, but you may **not** republish, redistribute, fork, modify, or create derivative works.  
+See the full terms in [LICENSE](./LICENSE).
 
----
+> Included third‑party components are subject to their own licenses.
 
 ## 🙌 Credits
 
