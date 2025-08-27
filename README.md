@@ -194,7 +194,7 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=
 
 **Proprietary — Personal Use, No Redistribution.**  
 You may use the Fusion Mods Launcher, but you may **not** republish, redistribute, fork, modify, or create derivative works.  
-See the full terms in [LICENSE](./LICENSE).
+See the full terms in [LICENSE](./License).
 
 > Included third‑party components are subject to their own licenses.
 
