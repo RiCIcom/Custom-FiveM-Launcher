@@ -3,6 +3,7 @@ using System.Windows;
 using System.Windows.Input;
 
 //CMD:
+//Wenn am Desktop bzw selber Ordner: .\FusionMods.exe --devmode=true
 //FusionMods.exe --devmode=boolean
 
 namespace FusionMods
@@ -68,6 +69,11 @@ namespace FusionMods
         private void Closebtn_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        private void clearcache_Click(object sender, RoutedEventArgs e)
+        {
+            Backend.ClearCache();
         }
     }
 }

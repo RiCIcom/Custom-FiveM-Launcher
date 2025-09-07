@@ -305,6 +305,8 @@
                     <TextBlock Text="TeamSpeak IP" FontWeight="SemiBold"/>
                     <TextBox x:Name="TeamSpeakIpTextBox"/>
 
+                    <Button x:Name="clearcache" Content="Clear Cache" Style="{StaticResource RedButton}" Click="clearcache_Click"/>
+
                     <TextBlock x:Name="Waitingtitle" Text="Waiting Time(Time to Wait for the FiveM Main Process!)" FontWeight="SemiBold"/>
                     <TextBox x:Name="WaitingTimeTextBox"/>
 

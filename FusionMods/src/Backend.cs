@@ -74,6 +74,37 @@ namespace FusionMods.src
                 ShowError($"Unerwarteter Fehler: {ex.Message}");
             }
         }
+        public static void ClearCache()
+        {
+            string fivemPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "FiveM", "FiveM.app");
+
+            string[] foldersToDelete = new string[]
+            {
+            "data/cache",
+            "data/cache_browser",
+            "data/server-cache",
+            "data/server-cache-priv",
+            "crashes"
+            };
+
+            foreach (string folder in foldersToDelete)
+            {
+                string fullPath = Path.Combine(fivemPath, folder);
+                try
+                {
+                    if (Directory.Exists(fullPath))
+                    {
+                        Directory.Delete(fullPath, true);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"[ClearCache] Fehler beim Löschen von {fullPath}: {ex.Message}");
+                }
+            }
+
+            MessageBox.Show("[ClearCache] Cache wurde erfolgreich gelöscht.");
+        }
 
         // ===================== CORE FLOW =====================
         private static void StartFiveMPureAndConnect(string fiveMExePath, string connectUri)
